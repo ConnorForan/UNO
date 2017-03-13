@@ -1,14 +1,14 @@
-Text-Based Implementation of "UNO" Card Game
-Runnable via command line
+Text-Based Implementation of "UNO" Card Game. Runnable via command line.
 
 Created as part of a group project in my Object Oriented Programming class during my 4th year at Dalhousie University.
 Group members were Abdul S. AlHajji and Ye Liang.
 
+
 Original Project Readme follows:
 
+---
 
-
------------COMPILING THE PROGRAM-----------
+---------COMPILING THE PROGRAM---------
 
 A makefile is included, so the program can be compiled by using the 'make' command.
 After compiling, the game can be run with the command './unogame'
@@ -39,7 +39,7 @@ Valid Moves:
 1:[Yellow 6] - 2:[Yellow 9] - 3:[Yellow 2] - 4:[Green 1]
 
 Which card would you like to play? (type a number)
-> 
+> 2
 
 --
 
@@ -53,13 +53,13 @@ wild card, the game will prompt for you to select the colour that must be played
 
 Please select the next colour to be played. (Type a number)
 1. Red   -   2. Yellow   -   3. Green   -   4. Blue
-> 
+> 3
 
 --
 
 After your move is completed, each computer player will make their moves. Once it is your turn again, the process repeats.
 
---
+---
 
 Which card would you like to play? (type a number)
 > 1
@@ -68,7 +68,7 @@ COMPUTER1 loses their turn.
 COMPUTER2 plays Green 4
 COMPUTER3 draws a card. It's a Yellow 4, so they play it.
 COMPUTER4 plays Wild Draw Four
-> You lose your turn and have to draw 4 cards!
+You lose your turn and have to draw 4 cards!
 COMPUTER1 plays Blue Skip
 COMPUTER2 loses their turn.
 COMPUTER3 plays Blue Skip
@@ -76,7 +76,7 @@ COMPUTER4 loses their turn.
 
 --------Your Turn--------
 
----
+--
 
 The game will print a message when any player has a single card in their hand.
 The game will end once a player empties their hand.
