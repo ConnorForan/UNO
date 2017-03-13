@@ -6,7 +6,7 @@ Group members were Abdul S. AlHajji and Ye Liang.
 
 Original Project Readme follows:
 
-<!-- language: lang-none -->
+
 
 -----------COMPILING THE PROGRAM-----------
 
@@ -41,7 +41,7 @@ Valid Moves:
 Which card would you like to play? (type a number)
 > 
 
----
+--
 
 Each valid move is printed with a number before it. You type this number into the prompt in order to select your move.
 (Entering 0 here will also exit the game)
@@ -55,11 +55,11 @@ Please select the next colour to be played. (Type a number)
 1. Red   -   2. Yellow   -   3. Green   -   4. Blue
 > 
 
----
+--
 
 After your move is completed, each computer player will make their moves. Once it is your turn again, the process repeats.
 
----
+--
 
 Which card would you like to play? (type a number)
 > 1
